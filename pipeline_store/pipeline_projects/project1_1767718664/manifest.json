@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "name": "project1",
+  "saved_ts": 1767718664.1298869,
+  "dir_name": "project1_1767718664",
+  "data_mode": "full",
+  "datasets_saved": 0,
+  "datasets_total": 0,
+  "tags": [],
+  "notes": "",
+  "archived": false,
+  "last_opened_ts": 1767719078.4892612,
+  "pipeline_hashes": {},
+  "team_state": {
+    "active_dataset_id": null,
+    "datasets": {}
+  },
+  "registry_by_pipeline_hash": {},
+  "flow_layout_by_pipeline_hash": {},
+  "code_drafts_by_fingerprint": {}
+}

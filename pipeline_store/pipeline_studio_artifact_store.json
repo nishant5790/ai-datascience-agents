@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "path": "/Users/nkumar/ai-data-science-team/pipeline_store/pipeline_studio_artifact_store.json",
+  "by_fingerprint": {
+    "2a3f8fbeffacbb56e3bd1cf2a6ba6b8adb42acdc56c7a192ba88f0f93e24ac97": {
+      "fingerprint": "2a3f8fbeffacbb56e3bd1cf2a6ba6b8adb42acdc56c7a192ba88f0f93e24ac97",
+      "schema_hash": "1126bc859f04fa24b0833a509b3164c105d760eaaad06fd034c16e6c4a94e5d6",
+      "stage": "raw",
+      "label": "bike_model_specs.csv",
+      "last_dataset_id": "raw_cf5e1d1c",
+      "updated_ts": 1767719511.701507,
+      "artifacts": {
+        "eda_reports": {
+          "reports": {},
+          "turn_idx": 5,
+          "created_ts": 1767719358.9349928
+        }
+      }
+    }
+  },
+  "updated_ts": 1767719511.701521
+}

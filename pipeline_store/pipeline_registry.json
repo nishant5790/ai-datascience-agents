@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "path": "/Users/nkumar/ai-data-science-team/pipeline_store/pipeline_registry.json",
+  "by_pipeline_hash": {
+    "f8ccf998e90f905b0976d29a899cd1097c0cf5305827ea4d1066dcc76eee8962": {
+      "pipeline_hash": "f8ccf998e90f905b0976d29a899cd1097c0cf5305827ea4d1066dcc76eee8962",
+      "target": "all",
+      "target_dataset_id": null,
+      "active_dataset_id": "raw_cf5e1d1c",
+      "model_dataset_id": "raw_cf5e1d1c",
+      "inputs": [],
+      "lineage": [
+        {
+          "id": "raw_cf5e1d1c",
+          "label": "bike_model_specs.csv",
+          "stage": "raw",
+          "shape": [
+            9,
+            8
+          ],
+          "parent_ids": [],
+          "schema_hash": "1126bc859f04fa24b0833a509b3164c105d760eaaad06fd034c16e6c4a94e5d6",
+          "fingerprint": "2a3f8fbeffacbb56e3bd1cf2a6ba6b8adb42acdc56c7a192ba88f0f93e24ac97",
+          "source": "/Users/nkumar/ai-data-science-team/data/bike_model_specs.csv",
+          "transform_kind": null,
+          "transform_hash": null,
+          "created_at": "2026-01-06T17:06:03.414224+00:00",
+          "created_by": "Data_Loader_Tools_Agent"
+        }
+      ],
+      "nodes": {
+        "raw_cf5e1d1c": {
+          "id": "raw_cf5e1d1c",
+          "label": "bike_model_specs.csv",
+          "stage": "raw",
+          "shape": [
+            9,
+            8
+          ],
+          "schema_hash": "1126bc859f04fa24b0833a509b3164c105d760eaaad06fd034c16e6c4a94e5d6",
+          "fingerprint": "2a3f8fbeffacbb56e3bd1cf2a6ba6b8adb42acdc56c7a192ba88f0f93e24ac97",
+          "parent_ids": [],
+          "created_ts": 1767719163.414222,
+          "created_at": "2026-01-06T17:06:03.414224+00:00",
+          "created_by": "Data_Loader_Tools_Agent",
+          "provenance": {
+            "source_type": "file",
+            "source": "/Users/nkumar/ai-data-science-team/data/bike_model_specs.csv",
+            "original_name": "bike_model_specs.csv"
+          },
+          "artifacts": {
+            "eda_reports": {
+              "turn_idx": 5,
+              "created_ts": 1767719358.9349928
+            }
+          }
+        }
+      },
+      "edges": [],
+      "ui": {
+        "hidden_ids": [],
+        "deleted_ids": []
+      },
+      "updated_ts": 1767719511.70516,
+      "signature": "93ff6c0151d8607f1028f4c3be1714d968590e64",
+      "created_ts": 1767719170.170284
+    }
+  },
+  "updated_ts": 1767719511.7052019
+}
