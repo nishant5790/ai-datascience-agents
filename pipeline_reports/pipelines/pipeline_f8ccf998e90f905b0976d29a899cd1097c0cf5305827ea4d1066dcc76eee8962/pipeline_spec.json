@@ -1,0 +1,28 @@
+{
+  "pipeline_hash": "f8ccf998e90f905b0976d29a899cd1097c0cf5305827ea4d1066dcc76eee8962",
+  "active_dataset_id": "raw_cf5e1d1c",
+  "model_dataset_id": "raw_cf5e1d1c",
+  "target": "model",
+  "target_dataset_id": "raw_cf5e1d1c",
+  "inputs": [],
+  "lineage": [
+    {
+      "id": "raw_cf5e1d1c",
+      "label": "bike_model_specs.csv",
+      "stage": "raw",
+      "shape": [
+        9,
+        8
+      ],
+      "parent_ids": [],
+      "schema_hash": "1126bc859f04fa24b0833a509b3164c105d760eaaad06fd034c16e6c4a94e5d6",
+      "fingerprint": "2a3f8fbeffacbb56e3bd1cf2a6ba6b8adb42acdc56c7a192ba88f0f93e24ac97",
+      "source": "/Users/nkumar/ai-data-science-team/data/bike_model_specs.csv",
+      "transform_kind": null,
+      "transform_hash": null,
+      "created_at": "2026-01-06T17:06:03.414224+00:00",
+      "created_by": "Data_Loader_Tools_Agent"
+    }
+  ],
+  "saved_at": "2026-01-06T17:06:10.168704+00:00"
+}
